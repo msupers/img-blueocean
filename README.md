@@ -6,7 +6,7 @@
 
 ## jenkins version
 
-- 
+- Jenkins ver.2.190.3
 
 ## quick start 
 
