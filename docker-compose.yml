@@ -1,0 +1,8 @@
+version: '2.2'
+services:
+  blueocean:
+    image:  'registry.cn-beijing.aliyuncs.com/meowbite/blueocean:1.21.0'
+    restart: always
+    mem_limit: 6000000000
+    ports:
+      - "8080:8080"
