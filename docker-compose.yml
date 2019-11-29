@@ -2,7 +2,8 @@ version: '2.2'
 services:
   blueocean:
     image:  'registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.21.0'
-    volumes: ./jenkins_home:/var/jenkins_home
+    volumes:
+        - ./jenkins_home:/var/jenkins_home
     restart: always
     mem_limit: 6000000000
     ports:
