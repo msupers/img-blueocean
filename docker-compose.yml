@@ -1,0 +1,11 @@
+version: '3'
+services:
+    jenkins:
+        image: "registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.22.0"
+        container_name: "jenkins-master"
+        restart: always
+        volumes:
+            - /data/jenkins_home:/var/jenkins_home
+        ports:
+            - 8080:8080
+
