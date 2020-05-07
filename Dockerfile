@@ -1,2 +1,2 @@
-FROM jenkinsci/blueocean:1.22.0
+FROM jenkinsci/blueocean:1.23.1
 USER root

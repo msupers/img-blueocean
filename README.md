@@ -3,7 +3,8 @@
 ## images name 
 
 ```bash
-registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.22.0
+registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.23.1
+
 ```
 ## images official hub repo
 

@@ -1,7 +1,7 @@
 version: '3'
 services:
-    jenkins:
-        image: "registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.22.0"
+    jenkins-blueocean:
+        image: "registry.cn-beijing.aliyuncs.com/meowbite/blueocean:v1.22.1"
         container_name: "jenkins-master"
         restart: always
         volumes:
